@@ -14,7 +14,9 @@ venv.bak/
 
 # Caches
 .pytest_cache/
-.streamlit/
+.streamlit/*
+# Keep secrets out, but ship the theme setting.
+!.streamlit/config.toml
 
 # Large datasets and models
 rba-dataset.csv

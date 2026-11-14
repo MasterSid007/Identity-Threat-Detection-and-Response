@@ -1,0 +1,4 @@
+[theme]
+# The dashboard is designed for a dark theme. Without this, visitors whose system uses a light
+# theme get Streamlit's light text colours on the dashboard's dark cards.
+base = "dark"
